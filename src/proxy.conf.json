@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://4200-shiny-butterfly-66769738.eu-ws2.runcode.io/",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

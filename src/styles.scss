@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+.container {
+    width: 65%;
+    max-height: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: #45bade;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.ph-1 {
+    padding: 15px 0;
+}
+
+.pr-1 {
+    padding-right: 10px;
+}
+
+.pl-1 {
+    padding-left: 10px !important;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.btn-submit {
+    border: 1px solid #45bade;
+    width: 100%;
+}
+
+.field-border {
+    height: 35px;
+    border: 1px solid  rgb(166, 163, 163);
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding-right: 5px;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.flex-50 {
+    flex: 50%;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.border-json-field {
+    border: 1px solid  #a6a3a3;
+    color: #a6a3a3;
+    height: 100px;
+    border-radius: 5px;
+    padding: 15px;
+
+    display: block;
+    overflow: scroll;
+}
